@@ -1,0 +1,7 @@
+// main.jsx - точка входа: подключает React к <div id="root"> в index.html
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./App.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

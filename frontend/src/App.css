@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+.page {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 8px;
+}
+.block {
+  margin: 16px 0;
+}
+.preview {
+  max-width: 100%;
+  max-height: 300px;
+}
+button {
+  margin-top: 12px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.error {
+  color: #b00020;
+  background: #fdecea;
+  padding: 10px;
+  border-radius: 4px;
+}
